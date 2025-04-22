@@ -2,7 +2,7 @@ import logo from '../assets/logo.png'; // adapte le chemin selon ton projet
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary py-4">
       <div className="container-fluid">
         <a className="navbar-brand d-flex align-items-center" href="#">
           {/* <img src={logo} alt="Logo" width="40" height="40" className="me-2" /> */}
