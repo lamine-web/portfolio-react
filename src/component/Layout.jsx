@@ -8,9 +8,14 @@ export default function Layout() {
     <div>
       <header>
         <Navbar />
-        <Outlet></Outlet>
-        <Footer />
       </header>
+        <main>
+
+        <Outlet>
+          
+        </Outlet>
+        </main>
+        <Footer />
     </div>
   )
 }
