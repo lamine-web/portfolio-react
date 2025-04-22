@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,19 +22,22 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto d-flex align-items-center">
             <li className="nav-item">
-              <a className="nav-link text-light" href="#">Home</a>
+            <Link className="nav-link text-light" to="accueil">Home</Link>
+
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#">À propos</a>
+              <Link className="nav-link text-light" to="propos">À propos</Link>
+
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#">Compétences</a>
+            <Link className="nav-link text-light" to="competences">Competences</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#">Projets</a>
+            <Link className="nav-link text-light" to="projects">Projects</Link>
+
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#">Contact</a>
+              <Link className="nav-link text-light" to="contact">Contact</Link>
             </li>
             <li className="nav-item ms-3">
               <button className="btn btn-outline-light" onClick={toggleTheme}>
