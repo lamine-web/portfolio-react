@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Competences() {
+export default function Layout() {
   return (
     <div>
       
