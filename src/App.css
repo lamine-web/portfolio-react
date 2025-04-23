@@ -5,4 +5,16 @@ body.dark-theme {
   }
   
   /* Tu peux personnaliser d'autres éléments ici */
+  .jumbotron {
+    background-image: url('../assets/banner.jpg'); /* adapte le chemin */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
   
