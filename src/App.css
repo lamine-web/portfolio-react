@@ -1,16 +1,15 @@
-/* Thème sombre global */
+
 body.dark-theme {
     background-color: #ffffff;
     color: white;
   }
-  
-  /* Tu peux personnaliser d'autres éléments ici */
+
   .jumbotron {
-    background-image: url('../assets/banner.jpg'); /* adapte le chemin */
+    background-image: url('../assets/banner.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 300vh;
+    height: 400vh;
     color: white;
     display: flex;
     align-items: center;

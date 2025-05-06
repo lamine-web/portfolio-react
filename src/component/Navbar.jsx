@@ -11,7 +11,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`navbar navbar-expand-lg py-4 ${darkMode ? 'navbar-dark bg-dark' : 'navbar-light bg-primary'}`}>
+    <nav className={`navbar navbar-expand-lg py-4 
+    ${darkMode ? 'navbar-dark bg-dark' : 'navbar-light bg-primary'}`}>
       <div className="container-fluid d-flex align-items-center">
         <a className="navbar-brand" href="#">Mon portfolio</a>
 
@@ -40,8 +41,8 @@ const Navbar = () => {
               <Link className="nav-link text-light" to="contact">Contact</Link>
             </li>
             <li className="nav-item ms-3">
-              <button className="btn btn-outline-light" onClick={toggleTheme}>
-                {darkMode ? '🌞 Clair' : '🌙 Sombre'}
+              <button className="btn btn-outline-primary" onClick={toggleTheme}>
+                {darkMode ? '🌞 ' : '🌙 '}
               </button>
             </li>
           </ul>
