@@ -8,7 +8,7 @@ export default function Acceuil() {
     <div>
    <Jumbotron />
    <Carrousel />
-   <Propos />
+   {/* <Propos /> */}
     </div>
   )
 }
